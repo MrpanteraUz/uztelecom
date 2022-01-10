@@ -1,0 +1,49 @@
+@media screen and (max-width:1140px)
+{
+    .navbar_two{
+        margin-left: 170px;
+    
+      }
+      .nav_image{
+        margin-left: -70px;
+  }
+}
+
+
+@media screen and (max-width:995px)
+{
+  .navbar1{
+      display: none;
+  }
+
+  .nav_collec{
+      display: none;
+
+  }
+  header{
+      height: 70px;
+  }
+  .nav_image img{
+      width:170px;
+      
+  }
+
+  .menu_bar{
+      display: block;
+      display: flex;
+      margin-right: 50px;
+      margin-top: 17px;
+  }
+  
+  
+}    
+
+
+@media screen and (max-width:360px) {
+
+   .menu_bar{
+       color: blue;
+   }
+    
+}
+
