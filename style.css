@@ -7,7 +7,7 @@
 
 .content{
     width: 100%;
-    height: auto;
+    height: 200vh;
     margin: auto;
     overflow: hidden;
 }
@@ -148,7 +148,10 @@ header{
         height: 300px;
    }
 
-  
+  .carousel-item{
+      height: auto;
+      object-fit: cover;
+  }
    .nav_collec{
        width: 100%;
        height: 100%;
@@ -168,10 +171,10 @@ header{
 
    }
 
-   .container{
+   .cantainer{
     margin-top: 0px;
     width: 100%;
-    height: 100vh;
+    height: 3000px;
     margin: auto;
     background: url('https://uztelecom.uz/images/section2-pattern-1.png') no-repeat center/cover;
 
@@ -190,4 +193,92 @@ header{
     height: 100%;
     margin-left: 10%;
 
+}
+
+.commanda{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+}
+
+.card_l{
+    width: 75%;
+    height:500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    justify-content: space-around;
+    justify-content: center;
+}
+.cards_l{
+    background: #fff;
+    width: 250px;
+    height: 270px;
+    border-radius: 10px;
+    margin:10px 25px 10px 0 ;
+
+    
+}
+.card_r{
+    width: 35%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20x;
+
+    
+}
+
+.card_icon{
+    border: 2px solid #555;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 70px;  
+    margin-top: 45px;
+    
+}
+
+.card_icon i{
+    font-size: 40px;
+    color: #555;
+    margin-left: 27px;
+    margin-top: 27px;
+
+}
+
+.card_icon P{
+    color: #555;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    transition: .5s;
+}
+.cards_l span{
+    font-size:25px ;
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+.card_icon:hover{
+    border: 2px solid #238AD5;
+    color: #238AD5;
+    transition: .5s;
+}
+.card_icon:hover i{
+    border: 2px solid #238AD5;
+    border: none;
+    color: #238AD5;
+    transition: .5s;
+}
+
+
+.logo_image{
+    width: 100%;
+    height: 60px;
+    background: url('https://oplata.kapitalbank.uz/img/uztelecom-header.3121b248.png') no-repeat center/cover;
+    border-radius:13px 13px 0 0;
 }
