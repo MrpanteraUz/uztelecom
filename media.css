@@ -31,7 +31,7 @@
   .menu_bar{
       display: block;
       display: flex;
-      margin-right: 80px;
+      margin-right: 50px;
       margin-top: 17px;
   }
   
@@ -39,11 +39,30 @@
 }    
 
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:450px) {
+        .nav_img{
+            display: none;
+        }
+
+        
+    }
+
+    @media screen and (max-width:425px) {
 
         .menu_bar{
-            margin-left: -70px;
+            margin-left: -50px;
         }
-    
-}
+
+
+    }
+    @media screen and (max-width:375px) {
+
+        .menu_bar{
+            margin-left: -130px;
+        }
+
+
+    }
+
+
 

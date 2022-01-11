@@ -112,8 +112,8 @@ img{
 
  i{
         font-size: 20px;
-        position: relative;
-        left: -9px;
+        /* position: relative;
+        left: -9px; */
     }
 
     .menu_bar{
@@ -131,3 +131,52 @@ img{
         color: red;
         padding: 10px;
     }
+
+   .carusel_item{
+    height: 500px;
+    object-fit: contain;
+   }
+   .carousel-inner{
+       width: 1300px;
+
+   }
+
+   .carousel-item img{
+       height: 300px;
+       object-fit: cover;
+   }
+
+   .nav_img img{
+         margin-left: 0px;
+        width: 100%;
+        height: 300px;
+   }
+  
+
+/* .navigation {
+    width: 99%;
+    height: 200px;
+    margin-left: 150px;
+}
+
+   .navigation img{
+         width: 80%;
+         height: 200px;
+         margin: auto;
+         margin-left: 30px;
+   } */
+
+   .container{
+       width: 100%;
+       height: 100vh;
+       margin: auto;
+       background: #555;
+
+   }
+
+   .content{
+       width: 100%;
+       height: auto;
+       margin: auto;
+       overflow: hidden;
+   }
